@@ -12,6 +12,7 @@ package week3;
 public class Week3 {
     private int ID;
         private String firstName;
+       private int number;
 
     /**
      * @param args the command line arguments
