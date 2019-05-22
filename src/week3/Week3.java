@@ -14,6 +14,7 @@ public class Week3 {
         private String firstName;
        private int number;
     private int phone_number;
+    private boolean parttime;
 
     /**
      * @param args the command line arguments
@@ -52,6 +53,20 @@ public class Week3 {
      */
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    /**
+     * @return the parttime
+     */
+    public boolean isParttime() {
+        return parttime;
+    }
+
+    /**
+     * @param parttime the parttime to set
+     */
+    public void setParttime(boolean parttime) {
+        this.parttime = parttime;
     }
     
 }
