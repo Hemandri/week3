@@ -13,6 +13,7 @@ public class Week3 {
     private int ID;
         private String firstName;
        private int number;
+    private int phone_number;
 
     /**
      * @param args the command line arguments
